@@ -1,0 +1,37 @@
+---
+abstract: 'OpenERP Object to Object Mapper'
+author:
+  - 'Jon Allen (JJ) <jj@opusvl.com>'
+  - 'Jon Allen (JJ) <jj@opusvl.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: OpenERP-OOM
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  DateTime: 0
+  DateTime::Format::Strptime: 0
+  List::MoreUtils: 0
+  Moose: 0
+  Moose::Exporter: 0
+  Moose::Role: 0
+  Moose::Util::MetaRole: 0
+  Moose::Util::TypeConstraints: 0
+  MooseX::NotRequired: 0
+  MooseX::Role::XMLRPC::Client: 0
+  OpenERP::XMLRPC::Simple: 0
+  RPC::XML: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.12
